@@ -12,8 +12,7 @@ It uses **different ML models for young individuals and older individuals** to i
 
 Try the live application here:
 
-👉 https://ml-driven-healthcare-premium-predictor-project.streamlit.app/
-
+👉 [https://ml-driven-healthcare-premium-predictor-project-201201.streamlit.app/]
 ---
 
 # 🧠 Project Overview
@@ -151,6 +150,6 @@ The application is deployed using **Streamlit Cloud**.
 
 Live App:
 
-👉 https://ml-driven-healthcare-premium-predictor-project.streamlit.app/
+👉 [https://ml-driven-healthcare-premium-predictor-project-201201.streamlit.app/]
 
 ---
