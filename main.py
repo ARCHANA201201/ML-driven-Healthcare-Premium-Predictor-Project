@@ -170,6 +170,22 @@ input_dict = {
 }
 
 # Button to make prediction
+# Button to make prediction
 if st.button('Predict'):
     prediction = predict(input_dict)
-    st.success(f'Predicted Health Insurance Cost: {prediction}')
+
+    st.markdown(
+        f"""
+        <div style="
+            background-color:#00c853;
+            padding:15px;
+            border-radius:10px;
+            color:white;
+            font-size:22px;
+            font-weight:bold;
+            text-align:center;">
+            💰 Predicted Health Insurance Cost: {prediction}
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
